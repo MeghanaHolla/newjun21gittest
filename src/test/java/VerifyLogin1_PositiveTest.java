@@ -1,7 +1,9 @@
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.openqa.selenium.NoAlertPresentException;
 
 public class VerifyLogin1_PositiveTest extends Base{
     @Test
